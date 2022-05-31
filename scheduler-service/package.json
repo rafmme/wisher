@@ -1,0 +1,16 @@
+{
+  "name": "scheduler-service",
+  "version": "1.0.0",
+  "description": "A service to publish/schedule jobs to redis using cron job",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Redis",
+    "Pub/Sub",
+    "CronJob"
+  ],
+  "author": "Timileyin Farayola",
+  "license": "MIT"
+}

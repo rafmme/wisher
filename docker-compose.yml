@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  api:
+    build: ./api-service
+    ports:
+      - "5000:5000"
+
+  scheduler:
+    build: ./scheduler-service
+    ports:
+      - "6000:6000"
+
+  mailer:
+    build: ./mailer-service
+    ports:
+      - "8000:8000"
+
+  redis:
+  postgres:
